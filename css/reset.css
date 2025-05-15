@@ -1,29 +1,9 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-
-.main_content {
-    margin-top: 100px;
-    margin-bottom: 80px;
-}
-
-.car_image {
-    display: block;
-    width: 65%;
-    max-height: auto;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-.car_text {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -44,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -65,4 +45,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */
+}
