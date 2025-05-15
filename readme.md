@@ -19,7 +19,6 @@ CSS3 (Flexbox, Grid, Media Queries)
 
 Git para controle de versão
 
-Metodologia BEM (opcional para organização do CSS)
 
 📜 Licença
 Este é um projeto educacional sem fins comerciais. Todas as marcas registradas e imagens da Ford são propriedade de Ford Motor Company.
