@@ -44,3 +44,14 @@ body {
 .footer_logo img {
     height: 40px;
 }
+
+.copyright {
+    text-decoration: none;
+    text-align: center;	
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-right: 1000px;
+    position: center;
+    width: 80%;
+}
