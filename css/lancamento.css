@@ -1,0 +1,153 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.video_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.video_section iframe {
+  padding: 80 80 0 80;
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+}
+
+.modelos_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.modelo_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+}
+
+.modelo_item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.modelo_descricao {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.modelo_descricao input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+.botao_container {
+  margin: 30px 0;
+}
+
+.botao_container button {
+  background-color: #004080;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao_container button:hover {
+  background-color: #0066cc;
+}
+
+.modelos_section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modelos_section h2 {
+  margin-bottom: 3px;
+  font-size: 24px;
+  color: #1351d8;
+}
+
+.tabela_container {
+  overflow-x: auto;
+}
+
+.tabela_modelos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela_modelos th,
+.tabela_modelos td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tabela_modelos th {
+  background-color: #004080;
+  color: white;
+}
+
+.tabela_modelos img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Botão comparar */
+.botao_container {
+  margin-top: 20px;
+}
+
+.botao_container button {
+  background-color: #004080;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botao_container button:hover {
+  background-color: #0066cc;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .tabela_modelos th,
+  .tabela_modelos td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .tabela_modelos img {
+    width: 100px;
+  }
+}

@@ -1,0 +1,23 @@
+.main_content {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.car_image {
+    display: block;
+    width: 65%;
+    max-height: auto;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.car_text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+

@@ -1,0 +1,62 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.form_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+}
+
+.car_image img {
+    width: 300px;
+    height: auto;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    gap: 10px;
+}
+
+.contact_form h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact_form input,
+.contact_form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact_form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact_form button:hover {
+    background-color: #003f80;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
